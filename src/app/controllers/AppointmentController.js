@@ -4,7 +4,7 @@ import pt from 'date-fns/locale/pt';
 import Appointment from '../models/Appointment';
 import User from '../models/User';
 import File from '../models/File';
-import Notification from '../schemas/NotificationSchema';
+import Notification from '../schemas/Notification';
 
 class AppointmentController {
   async index(req, res) {
